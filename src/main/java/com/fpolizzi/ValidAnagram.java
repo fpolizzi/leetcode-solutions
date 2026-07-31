@@ -10,7 +10,7 @@ public class ValidAnagram {
         String s = "anagram";
         String t = "nagaram";
 
-        System.out.println((validAnagram(s, t)));
+        System.out.println(validAnagram(s, t));
     }
 
     public static boolean validAnagram(String s, String t) {

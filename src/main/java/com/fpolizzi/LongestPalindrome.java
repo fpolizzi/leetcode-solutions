@@ -12,7 +12,7 @@ public class LongestPalindrome {
 
         String s = "abccccdd";
 
-        System.out.println((longestPalindrome(s)));
+        System.out.println(longestPalindrome(s));
     }
 
     public static int longestPalindrome(String s) {

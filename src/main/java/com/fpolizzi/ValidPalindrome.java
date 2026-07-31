@@ -9,7 +9,7 @@ public class ValidPalindrome {
 
         String s = "A man, a plan, a canal: Panama";
 
-        System.out.println((validPalindrome(s)));
+        System.out.println(validPalindrome(s));
     }
 
     public static boolean validPalindrome(String s) {

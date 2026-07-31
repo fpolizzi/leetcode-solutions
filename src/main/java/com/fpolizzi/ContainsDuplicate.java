@@ -12,7 +12,7 @@ public class ContainsDuplicate {
 
         int[] nums = {1, 2, 3, 4, 3, 5, 6};
 
-        System.out.println((containsDuplicate(nums)));
+        System.out.println(containsDuplicate(nums));
     }
 
     public static boolean containsDuplicate(int[] nums) {

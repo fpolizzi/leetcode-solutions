@@ -9,7 +9,7 @@ public class MajorityElement {
 
         int[] nums = {2, 2, 1, 3, 1, 2, 2};
 
-        System.out.println((majorityElement(nums)));
+        System.out.println(majorityElement(nums));
     }
 
     public static int majorityElement(int[] nums) {
