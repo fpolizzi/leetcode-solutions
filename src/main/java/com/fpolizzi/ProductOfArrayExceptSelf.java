@@ -3,7 +3,7 @@ package com.fpolizzi;
 import java.util.Arrays;
 
 /**
- * Created by fpolizzi on 7/21/26
+ * Created by fpolizzi on 8/17/26
  */
 public class ProductOfArrayExceptSelf {
 
