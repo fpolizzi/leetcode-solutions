@@ -12,12 +12,12 @@ public class TimeMap {
     Map<String, ArrayList<TimeStampedValue>> entriesByKey;
 
     public TimeMap() {
-        // Constructor to initialize the TimeMap object
+        // constructor to initialize the TimeMap object
         entriesByKey = new HashMap<>();
     }
 
     public void set(String key, String value, int timestamp) {
-        // Implementation for setting the value at a specific timestamp
+        // implementation for setting the value at a specific timestamp
         if (!entriesByKey.containsKey(key)) {
             entriesByKey.put(key, new ArrayList<>());
         }
